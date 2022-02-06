@@ -8,6 +8,14 @@ main {
   color: #ff5454;
 }
 
+.signup-form {
+  padding: 1rem;
+}
+
+.signup-form label {
+  font-weight: bold;
+}
+
 .signup-form label,
 .signup-form input,
 .signup-form select {
@@ -16,6 +24,7 @@ main {
   width: 100%;
 }
 
+/* .signup-form input[type="checkbox"] */
 .signup-form input[id*='terms'],
 .signup-form input[id*='terms'] + label {
   display: inline-block;
